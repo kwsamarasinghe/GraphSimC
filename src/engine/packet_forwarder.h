@@ -69,12 +69,6 @@ private:
 	engine* _engine;			//Pointer to the simulation engine
 };
 
-/*template<class NODE, class EDGE ,class PACKET>
-packet_forwarder<NODE,EDGE,PACKET>::packet_forwarder(engine engine_){
-
-}*/
-
-
 struct packet {
 	int _addr_destination;
 	int _addr_source;
